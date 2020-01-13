@@ -52,6 +52,7 @@ void loop()
   digitalWrite(led5, LOW);     // posar a 0V el pin 10
   digitalWrite(led6, LOW);     // posar a 0V el pin 11
   digitalWrite(led7, LOW);     // posar a 0V el pin 12
+  digitalWrite(led7, HIGH);     // posar a 0V el pin 12
   
   delay(500);                  // es queden leds 500ms apagats
 }
